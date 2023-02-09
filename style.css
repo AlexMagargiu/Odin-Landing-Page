@@ -147,7 +147,7 @@ h2{
     justify-content: space-between;
 }
 
-.text-action{
+.text-action, footer > p{
     color: #e5e7eb;
 }
 
@@ -158,4 +158,10 @@ h2{
 .sign-up-box > button{
     border: 1px solid #e5e7eb;
     flex-shrink: 0;
+}
+
+footer{
+    text-align: center;
+    padding: 30px;
+    background-color: #1f2937;
 }
