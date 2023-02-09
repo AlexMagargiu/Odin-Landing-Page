@@ -42,6 +42,10 @@ a{
     color: #f9faf8;
 }
 
+.header-content-left > p{
+    margin-bottom: 10px;
+}
+
 .header-content-right{
     text-align: center;
     color: #F9FAF8;
@@ -54,11 +58,11 @@ a{
     margin: 90px 0 0 0;
 }
 
-.header-button{
+.header-button, .sign-up-box > button{
     padding: 5px 40px;
     background-color: #3882F6;
     color: #f9faf8;
-    border-radius: 20px;
+    border-radius: 8px;
 }
 
 h2{
@@ -103,13 +107,14 @@ h2{
 .quote-box{
     display: flex;
     justify-content: center;
+    padding: 150px 0 150px 0;
 }
 
 .quote{
     display: flex;
     flex-direction: column;
     gap: 5px;
-    width: 500px;
+    width: 800px;
     height: auto;
     flex-wrap: wrap;
 }
@@ -125,4 +130,32 @@ h2{
     align-self: flex-end;
     font-size: 22px;
     font-weight: bolder;
+}
+
+.content3{
+    display: flex;
+    justify-content: center;
+    margin: 100px 0 100px 0;
+}
+
+.sign-up-box{
+    width: 800px;
+    background-color: #3882F6;
+    padding: 30px 60px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-action{
+    color: #e5e7eb;
+}
+
+.text-action > h3{
+    font-size: 26px;
+}
+
+.sign-up-box > button{
+    border: 1px solid #e5e7eb;
+    flex-shrink: 0;
 }
