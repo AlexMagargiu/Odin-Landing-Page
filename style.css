@@ -69,6 +69,10 @@ h2{
     margin: 40px 0 40px 0;
 }
 
+.content1{
+    margin-bottom: 150px;
+}
+
 .boxes{
     display: flex;
     justify-content: center;
@@ -90,4 +94,35 @@ h2{
     height: 200px;
     border-radius: 20px;
     flex-shrink: 0;
+}
+
+.content2{
+    background-color: #e5e7eb;
+}
+
+.quote-box{
+    display: flex;
+    justify-content: center;
+}
+
+.quote{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 500px;
+    height: auto;
+    flex-wrap: wrap;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1f2937;
+}
+
+.quote-author{
+    align-self: flex-end;
+    font-size: 22px;
+    font-weight: bolder;
 }
